@@ -1,2 +1,2 @@
-# search-restaurant
+# search-movies
 A semantic search engine to find restaurants as the user wants
