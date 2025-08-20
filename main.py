@@ -10,13 +10,13 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import warnings
 warnings.filterwarnings("ignore")
 
-# get_movies()
+get_movies()
 
 with open("movies.json", "r", encoding="utf-8") as f:
     movies = json.load(f)
 
 df = pd.DataFrame(movies)
 
-retriever(df)
+# retriever(df)
 
 

@@ -3,7 +3,7 @@ import json
 from time import sleep
 import pandas as pd
 
-API_key = "ccead578a53c6ee55c8d38bbbca08278"
+API_key = "Your API Key"
 base_url = "https://api.themoviedb.org/3"
 total_pages = 5
 
@@ -37,7 +37,8 @@ def get_movies():
                 "overview": m.get("overview"),
                 "rating": m.get("vote_average"),
                 "release_date": m.get("release_date"),
-                "genre": [genre_map[g] for g in m.get("genre_ids", [])]
+                "genre": [genre_map[g] for g in m.get("genre_ids", [])],
+                "poster_url": f"https://image.tmdb.org/t/p/w500{m.get('poster_path')}" if m.get("poster_path") else None
             }
             all_movies.append(movie_data)
         

@@ -2,95 +2,105 @@
     {
         "title": "Superman",
         "overview": "Superman, a journalist in Metropolis, embarks on a journey to reconcile his Kryptonian heritage with his human upbringing as Clark Kent.",
-        "rating": 7.7,
+        "rating": 7.59,
         "release_date": "2025-07-09",
         "genre": [
             "Science Fiction",
             "Adventure",
             "Action"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg"
+    },
+    {
+        "title": "Mission: Impossible - The Final Reckoning",
+        "overview": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity \u2014 which has infiltrated intelligence networks all over the globe \u2014 with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
+        "rating": 7.235,
+        "release_date": "2025-05-17",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Thriller"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg"
     },
     {
         "title": "How to Train Your Dragon",
         "overview": "On the rugged isle of Berk, where Vikings and dragons have been bitter enemies for generations, Hiccup stands apart, defying centuries of tradition when he befriends Toothless, a feared Night Fury dragon. Their unlikely bond reveals the true nature of dragons, challenging the very foundations of Viking society.",
-        "rating": 8.0,
+        "rating": 8.033,
         "release_date": "2025-06-06",
         "genre": [
             "Fantasy",
             "Family",
             "Action",
             "Adventure"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/q5pXRYTycaeW6dEgsCrd4mYPmxM.jpg"
     },
     {
         "title": "The Pickup",
         "overview": "A routine cash pickup takes a wild turn when mismatched armored truck drivers Russell and Travis are ambushed by ruthless criminals led by savvy mastermind Zoe.",
-        "rating": 6.543,
+        "rating": 6.521,
         "release_date": "2025-07-27",
         "genre": [
             "Action",
             "Comedy",
             "Crime"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/vFWvWhfAvij8UIngg2Vf6JV95Cr.jpg"
     },
     {
         "title": "Weapons",
         "overview": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
-        "rating": 7.623,
+        "rating": 7.5,
         "release_date": "2025-08-04",
         "genre": [
             "Horror",
             "Mystery"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg"
     },
     {
         "title": "Lilo & Stitch",
         "overview": "The wildly funny and touching story of a lonely Hawaiian girl and the fugitive alien who helps to mend her broken family.",
-        "rating": 7.322,
+        "rating": 7.323,
         "release_date": "2025-05-17",
         "genre": [
             "Family",
             "Science Fiction",
             "Comedy",
             "Adventure"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/tUae3mefrDVTgm5mRzqWnZK6fOP.jpg"
     },
     {
-        "title": "M3GAN 2.0",
-        "overview": "After the underlying tech for M3GAN is stolen and misused by a powerful defense contractor to create a military-grade weapon known as Amelia, M3GAN's creator Gemma realizes that the only option is to resurrect M3GAN and give her a few upgrades, making her faster, stronger, and more lethal.",
-        "rating": 7.593,
-        "release_date": "2025-06-25",
+        "title": "The Bad Guys 2",
+        "overview": "The now-reformed Bad Guys are trying (very, very hard) to be good, but instead find themselves hijacked into a high-stakes, globe-trotting heist, masterminded by a new team of criminals they never saw coming: The Bad Girls.",
+        "rating": 7.5,
+        "release_date": "2025-07-24",
         "genre": [
-            "Action",
-            "Science Fiction",
-            "Thriller"
-        ]
+            "Animation",
+            "Family",
+            "Comedy",
+            "Crime",
+            "Adventure"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/26oSPnq0ct59l07QOXZKyzsiRtN.jpg"
     },
     {
         "title": "The Fantastic 4: First Steps",
         "overview": "Against the vibrant backdrop of a 1960s-inspired, retro-futuristic world, Marvel's First Family is forced to balance their roles as heroes with the strength of their family bond, while defending Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.",
-        "rating": 7.247,
+        "rating": 7.2,
         "release_date": "2025-07-23",
         "genre": [
             "Science Fiction",
             "Adventure"
-        ]
-    },
-    {
-        "title": "My Oxford Year",
-        "overview": "An ambitious American fulfilling her dream of studying at Oxford falls for a charming Brit hiding a secret that may upend her perfectly planned life.",
-        "rating": 7.259,
-        "release_date": "2025-07-31",
-        "genre": [
-            "Romance",
-            "Comedy",
-            "Drama"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/x26MtUlwtWD26d0G0FXcppxCJio.jpg"
     },
     {
         "title": "KPop Demon Hunters",
         "overview": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats.",
-        "rating": 8.42,
+        "rating": 8.4,
         "release_date": "2025-06-20",
         "genre": [
             "Animation",
@@ -98,255 +108,278 @@
             "Action",
             "Fantasy",
             "Comedy"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/22AouvwlhlXbe3nrFcjzL24bvWH.jpg"
+    },
+    {
+        "title": "M3GAN 2.0",
+        "overview": "After the underlying tech for M3GAN is stolen and misused by a powerful defense contractor to create a military-grade weapon known as Amelia, M3GAN's creator Gemma realizes that the only option is to resurrect M3GAN and give her a few upgrades, making her faster, stronger, and more lethal.",
+        "rating": 7.572,
+        "release_date": "2025-06-25",
+        "genre": [
+            "Action",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/4a63rQqIDTrYNdcnTXdPsQyxVLo.jpg"
+    },
+    {
+        "title": "My Oxford Year",
+        "overview": "An ambitious American fulfilling her dream of studying at Oxford falls for a charming Brit hiding a secret that may upend her perfectly planned life.",
+        "rating": 7.247,
+        "release_date": "2025-07-31",
+        "genre": [
+            "Romance",
+            "Comedy",
+            "Drama"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/jrhXbIOFingzdLjkccjg9vZnqIp.jpg"
     },
     {
         "title": "Karate Kid: Legends",
         "overview": "After a family tragedy, kung fu prodigy Li Fong is uprooted from his home in Beijing and forced to move to New York City with his mother. When a new friend needs his help, Li enters a karate competition \u2013 but his skills alone aren't enough. Li's kung fu teacher Mr. Han enlists original Karate Kid Daniel LaRusso for help, and Li learns a new way to fight, merging their two styles into one for the ultimate martial arts showdown.",
-        "rating": 7.157,
+        "rating": 7.154,
         "release_date": "2025-05-08",
         "genre": [
             "Action",
             "Adventure",
             "Drama"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/AEgggzRr1vZCLY86MAp93li43z.jpg"
+    },
+    {
+        "title": "Elio",
+        "overview": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be.",
+        "rating": 6.8,
+        "release_date": "2025-06-18",
+        "genre": [
+            "Animation",
+            "Family",
+            "Comedy",
+            "Adventure",
+            "Science Fiction"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/w2ARwtc1zoh0pyfwmyhpZHwuXgK.jpg"
     },
     {
         "title": "28 Years Later",
         "overview": "Twenty-eight years since the rage virus escaped a biological weapons laboratory, now, still in a ruthlessly enforced quarantine, some have found ways to exist amidst the infected. One such group lives on a small island connected to the mainland by a single, heavily-defended causeway. When one member departs on a mission into the dark heart of the mainland, he discovers secrets, wonders, and horrors that have mutated not only the infected but other survivors as well.",
-        "rating": 6.83,
+        "rating": 6.808,
         "release_date": "2025-06-18",
         "genre": [
             "Horror",
             "Thriller",
             "Science Fiction"
-        ]
-    },
-    {
-        "title": "Ice Road: Vengeance",
-        "overview": "Big rig ice road driver Mike McCann travels to Nepal to scatter his late brother\u2019s ashes on Mt. Everest. While on a packed tour bus traversing the deadly 12,000 ft. terrain of the infamous Road to the Sky, McCann and his mountain guide encounter a group of mercenaries and must fight to save themselves, the busload of innocent travelers, and the local villagers\u2019 homeland.",
-        "rating": 6.876,
-        "release_date": "2025-06-27",
-        "genre": [
-            "Action",
-            "Thriller",
-            "Drama"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/mIg1qCkVxnAlM2TK3RUF0tdEXlE.jpg"
     },
     {
         "title": "Ballerina",
         "overview": "Taking place during the events of John Wick: Chapter 3 \u2013 Parabellum, Eve Macarro begins her training in the assassin traditions of the Ruska Roma.",
-        "rating": 7.438,
+        "rating": 7.418,
         "release_date": "2025-06-04",
         "genre": [
             "Action",
             "Thriller",
             "Crime"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/2VUmvqsHb6cEtdfscEA6fqqVzLg.jpg"
     },
     {
-        "title": "Happy Gilmore 2",
-        "overview": "Happy Gilmore isn't done with golf \u2014 not by a long shot. Since his retirement after his first Tour Championship win, Gilmore returns to finance his daughter's ballet classes.",
-        "rating": 6.741,
-        "release_date": "2025-07-25",
+        "title": "Ice Road: Vengeance",
+        "overview": "Big rig ice road driver Mike McCann travels to Nepal to scatter his late brother\u2019s ashes on Mt. Everest. While on a packed tour bus traversing the deadly 12,000 ft. terrain of the infamous Road to the Sky, McCann and his mountain guide encounter a group of mercenaries and must fight to save themselves, the busload of innocent travelers, and the local villagers\u2019 homeland.",
+        "rating": 6.849,
+        "release_date": "2025-06-27",
         "genre": [
-            "Comedy"
-        ]
-    },
-    {
-        "title": "Final Destination Bloodlines",
-        "overview": "Plagued by a violent recurring nightmare, college student Stefanie heads home to track down the one person who might be able to break the cycle and save her family from the grisly demise that inevitably awaits them all.",
-        "rating": 7.2,
-        "release_date": "2025-05-14",
-        "genre": [
-            "Horror",
-            "Mystery"
-        ]
+            "Action",
+            "Thriller",
+            "Drama"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/cQN9rZj06rXMVkk76UF1DfBAico.jpg"
     },
     {
         "title": "Eddington",
         "overview": "In May of 2020, a standoff between a small-town sheriff and mayor sparks a powder keg as neighbor is pitted against neighbor in Eddington, New Mexico.",
-        "rating": 6.634,
+        "rating": 6.545,
         "release_date": "2025-07-16",
         "genre": [
             "Western",
             "Comedy",
             "Crime"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/kg7lrTWGKyzLnj0E7BXl52nro1N.jpg"
     },
     {
-        "title": "Mission: Impossible - The Final Reckoning",
-        "overview": "Ethan Hunt and team continue their search for the terrifying AI known as the Entity \u2014 which has infiltrated intelligence networks all over the globe \u2014 with the world's governments and a mysterious ghost from Hunt's past on their trail. Joined by new allies and armed with the means to shut the Entity down for good, Hunt is in a race against time to prevent the world as we know it from changing forever.",
-        "rating": 7.153,
-        "release_date": "2025-05-17",
+        "title": "Final Destination Bloodlines",
+        "overview": "Plagued by a violent recurring nightmare, college student Stefanie heads home to track down the one person who might be able to break the cycle and save her family from the grisly demise that inevitably awaits them all.",
+        "rating": 7.162,
+        "release_date": "2025-05-14",
         "genre": [
-            "Action",
-            "Adventure",
-            "Thriller"
-        ]
+            "Horror",
+            "Mystery"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/6WxhEvFsauuACfv8HyoVX6mZKFj.jpg"
+    },
+    {
+        "title": "Happy Gilmore 2",
+        "overview": "Happy Gilmore isn't done with golf \u2014 not by a long shot. Since his retirement after his first Tour Championship win, Gilmore returns to finance his daughter's ballet classes.",
+        "rating": 6.747,
+        "release_date": "2025-07-25",
+        "genre": [
+            "Comedy"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/ynT06XivgBDkg7AtbDbX1dJeBGY.jpg"
     },
     {
         "title": "Thunderbolts*",
         "overview": "After finding themselves ensnared in a death trap, seven disillusioned castoffs must embark on a dangerous mission that will force them to confront the darkest corners of their pasts.",
-        "rating": 7.4,
+        "rating": 7.387,
         "release_date": "2025-04-30",
         "genre": [
             "Action",
             "Science Fiction",
             "Adventure"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg"
     },
     {
-        "title": "F1",
-        "overview": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team\u2014and mentor a young hotshot driver\u2014while chasing one more chance at glory.",
-        "rating": 7.6,
-        "release_date": "2025-06-25",
+        "title": "28 Days Later",
+        "overview": "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain.",
+        "rating": 7.2,
+        "release_date": "2002-10-31",
         "genre": [
-            "Action",
-            "Drama"
-        ]
+            "Horror",
+            "Thriller",
+            "Science Fiction"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/sQckQRt17VaWbo39GIu0TMOiszq.jpg"
     },
     {
-        "title": "Bring Her Back",
-        "overview": "Following the death of their father, a brother and sister are introduced to their new sibling by their foster mother, only to learn that she has a terrifying secret.",
-        "rating": 7.5,
-        "release_date": "2025-05-28",
+        "title": "The Wolf of Wall Street",
+        "overview": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
+        "rating": 8.029,
+        "release_date": "2013-12-25",
         "genre": [
-            "Horror"
-        ]
-    },
-    {
-        "title": "Fight Club",
-        "overview": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
-        "rating": 8.437,
-        "release_date": "1999-10-15",
-        "genre": [
+            "Crime",
             "Drama",
-            "Thriller"
-        ]
+            "Comedy"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg"
     },
     {
-        "title": "How to Train Your Dragon 2",
-        "overview": "Five years have passed since Hiccup and Toothless united the dragons and Vikings of Berk. Now, they spend their time charting unmapped territories. During one of their adventures, the pair discover a secret cave that houses hundreds of wild dragons -- and a mysterious dragon rider. Hiccup and Toothless find themselves at the center of a battle to protect Berk from a power-hungry warrior.",
-        "rating": 7.676,
-        "release_date": "2014-06-05",
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "overview": "After Port Royal is attacked and pillaged by a mysterious pirate crew, capturing the governor's daughter Elizabeth Swann in the process, William Turner asks free-willing pirate Jack Sparrow to help him locate the crew's ship\u2014The Black Pearl\u2014so that he can rescue the woman he loves.",
+        "rating": 7.8,
+        "release_date": "2003-07-09",
         "genre": [
-            "Fantasy",
-            "Action",
             "Adventure",
-            "Animation",
+            "Fantasy",
+            "Action"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg"
+    },
+    {
+        "title": "Barbarian",
+        "overview": "In town for a job interview, a young woman arrives at her Airbnb late at night only to find that it has been mistakenly double-booked and a strange man is already staying there. Against her better judgement, she decides to stay the night anyway.",
+        "rating": 6.835,
+        "release_date": "2022-09-08",
+        "genre": [
+            "Horror",
+            "Thriller"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/idT5mnqPcJgSkvpDX7pJffBzdVH.jpg"
+    },
+    {
+        "title": "The Conjuring: The Devil Made Me Do It",
+        "overview": "Paranormal investigators Ed and Lorraine Warren encounter what would become one of the most sensational cases from their files. The fight for the soul of a young boy takes them beyond anything they'd ever seen before, to mark the first time in U.S. history that a murder suspect would claim demonic possession as a defense.",
+        "rating": 7.401,
+        "release_date": "2021-05-25",
+        "genre": [
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/xbSuFiJbbBWCkyCCKIMfuDCA4yV.jpg"
+    },
+    {
+        "title": "Where Hope Grows",
+        "overview": "Calvin Campbell is a former professional baseball player sent to an early retirement due to his panic attacks at the plate. Even though he had all the talent for the big leagues, he struggles with the curveballs life has thrown him. Today, he mindlessly sleepwalks through his days and the challenge of raising his teenager daughter. His life is in a slow downward spiral when it is suddenly awakened and invigorated by the most unlikely person \u2013 Produce, a young-man with Down syndrome who works at the local grocery store.",
+        "rating": 6.846,
+        "release_date": "2014-04-06",
+        "genre": [
+            "Drama"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/gQmOsU2hA0PrGvxGjzty1S2OO3H.jpg"
+    },
+    {
+        "title": "Pulp Fiction",
+        "overview": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+        "rating": 8.487,
+        "release_date": "1994-09-10",
+        "genre": [
+            "Thriller",
+            "Crime",
             "Comedy",
-            "Family"
-        ]
+            "Drama"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+    },
+    {
+        "title": "The Hangover",
+        "overview": "When three friends finally come to after a raucous night of bachelor-party revelry, they find a baby in the closet and a tiger in the bathroom. But they can't seem to locate their best friend, Doug \u2013 who's supposed to be tying the knot. Launching a frantic search for Doug, the trio perseveres through a nasty hangover to try to make it to the church on time.",
+        "rating": 7.326,
+        "release_date": "2009-06-02",
+        "genre": [
+            "Comedy"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/A0uS9rHR56FeBtpjVki16M5xxSW.jpg"
+    },
+    {
+        "title": "Deep Cover",
+        "overview": "Kat is an improv comedy teacher beginning to question if she\u2019s missed her shot at success. When an undercover cop offers her the role of a lifetime, she recruits two of her students to infiltrate London\u2019s gangland by impersonating dangerous criminals.",
+        "rating": 6.7,
+        "release_date": "2025-06-12",
+        "genre": [
+            "Action",
+            "Comedy",
+            "Crime"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/1vXTHTbSQJs9r2hp4Uk08XzKwPp.jpg"
+    },
+    {
+        "title": "Harry Potter and the Order of the Phoenix",
+        "overview": "Returning for his fifth year of study at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of students to defend themselves against the dark arts.",
+        "rating": 7.674,
+        "release_date": "2007-07-08",
+        "genre": [
+            "Adventure",
+            "Fantasy"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg"
     },
     {
         "title": "Jurassic World",
         "overview": "Twenty-two years after the events of Jurassic Park, Isla Nublar now features a fully functioning dinosaur theme park, Jurassic World, as originally envisioned by John Hammond.",
-        "rating": 6.7,
+        "rating": 6.699,
         "release_date": "2015-06-06",
         "genre": [
             "Action",
             "Adventure",
             "Science Fiction",
             "Thriller"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/rhr4y79GpxQF9IsfJItRXVaoGs4.jpg"
     },
     {
-        "title": "Coraline",
-        "overview": "Wandering her rambling old house in her boring new town, 11-year-old Coraline discovers a hidden door to a strangely idealized version of her life. In order to stay in the fantasy, she must make a frighteningly real sacrifice.",
-        "rating": 7.897,
-        "release_date": "2009-02-05",
-        "genre": [
-            "Animation",
-            "Family",
-            "Fantasy"
-        ]
-    },
-    {
-        "title": "Harry Potter and the Order of the Phoenix",
-        "overview": "Returning for his fifth year of study at Hogwarts, Harry is stunned to find that his warnings about the return of Lord Voldemort have been ignored. Left with no choice, Harry takes matters into his own hands, training a small group of students to defend themselves against the dark arts.",
-        "rating": 7.7,
-        "release_date": "2007-07-08",
-        "genre": [
-            "Adventure",
-            "Fantasy"
-        ]
-    },
-    {
-        "title": "The Life of Chuck",
-        "overview": "In this extraordinary story of an ordinary man, Charles 'Chuck' Krantz experiences the wonder of love, the heartbreak of loss, and the multitudes contained in all of us.",
-        "rating": 7.346,
-        "release_date": "2025-06-05",
+        "title": "Dune",
+        "overview": "Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet's exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity's greatest potential-only those who can conquer their fear will survive.",
+        "rating": 7.781,
+        "release_date": "2021-09-15",
         "genre": [
             "Science Fiction",
-            "Fantasy",
-            "Drama"
-        ]
-    },
-    {
-        "title": "How to Train Your Dragon",
-        "overview": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast \u2013 which he names Toothless \u2013 much to the chagrin of his warrior father.",
-        "rating": 7.851,
-        "release_date": "2010-03-18",
-        "genre": [
-            "Fantasy",
-            "Adventure",
-            "Animation",
-            "Family"
-        ]
-    },
-    {
-        "title": "Iron Man",
-        "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
-        "rating": 7.653,
-        "release_date": "2008-04-30",
-        "genre": [
-            "Action",
-            "Science Fiction",
             "Adventure"
-        ]
-    },
-    {
-        "title": "Below Her Mouth",
-        "overview": "An unexpected affair quickly escalates into a heart-stopping reality for two women whose passionate connection changes their lives forever.",
-        "rating": 6.803,
-        "release_date": "2017-02-10",
-        "genre": [
-            "Drama",
-            "Romance"
-        ]
-    },
-    {
-        "title": "How to Train Your Dragon: The Hidden World",
-        "overview": "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless\u2019 discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup\u2019s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
-        "rating": 7.75,
-        "release_date": "2019-01-03",
-        "genre": [
-            "Animation",
-            "Family",
-            "Adventure"
-        ]
-    },
-    {
-        "title": "John Wick: Chapter 4",
-        "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
-        "rating": 7.721,
-        "release_date": "2023-03-22",
-        "genre": [
-            "Action",
-            "Thriller",
-            "Crime"
-        ]
-    },
-    {
-        "title": "Smile 2",
-        "overview": "About to embark on a new world tour, global pop sensation Skye Riley begins experiencing increasingly terrifying and inexplicable events. Overwhelmed by the escalating horrors and the pressures of fame, Skye is forced to face her dark past to regain control of her life before it spirals out of control.",
-        "rating": 6.596,
-        "release_date": "2024-10-16",
-        "genre": [
-            "Horror",
-            "Mystery"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
     },
     {
         "title": "Toy Story 2",
@@ -357,82 +390,87 @@
             "Animation",
             "Comedy",
             "Family"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/yFWQkz2ynjwsazT6xQiIXEUsyuh.jpg"
+    },
+    {
+        "title": "The Batman",
+        "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+        "rating": 7.658,
+        "release_date": "2022-03-01",
+        "genre": [
+            "Crime",
+            "Mystery",
+            "Thriller"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+    },
+    {
+        "title": "After",
+        "overview": "Tessa Young is a dedicated student, dutiful daughter and loyal girlfriend to her high school sweetheart. Entering her first semester of college, Tessa's guarded world opens up when she meets Hardin Scott, a mysterious and brooding rebel who makes her question all she thought she knew about herself -- and what she wants out of life.",
+        "rating": 7.118,
+        "release_date": "2019-04-11",
+        "genre": [
+            "Romance",
+            "Drama"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/u3B2YKUjWABcxXZ6Nm9h10hLUbh.jpg"
+    },
+    {
+        "title": "Deadpool",
+        "overview": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+        "rating": 7.622,
+        "release_date": "2016-02-09",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Comedy"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/3E53WEZJqP6aM84D8CckXx4pIHw.jpg"
+    },
+    {
+        "title": "Happy Gilmore",
+        "overview": "Failed hockey player-turned-golf whiz Happy Gilmore \u2014 whose unconventional approach and antics on the green courts the ire of rival Shooter McGavin \u2014 is determined to win a PGA tournament so he can save his granny's house with the prize money. Meanwhile, an attractive tour publicist tries to soften Happy's image.",
+        "rating": 6.667,
+        "release_date": "1996-02-16",
+        "genre": [
+            "Comedy"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/epFP29rGrLPseuKxpz3mGKr23Do.jpg"
+    },
+    {
+        "title": "The Amazing Spider-Man",
+        "overview": "Peter Parker is an outcast high schooler abandoned by his parents as a boy, leaving him to be raised by his Uncle Ben and Aunt May. Like most teenagers, Peter is trying to figure out who he is and how he got to be the person he is today. As Peter discovers a mysterious briefcase that belonged to his father, he begins a quest to understand his parents' disappearance \u2013 leading him directly to Oscorp and the lab of Dr. Curt Connors, his father's former partner. As Spider-Man is set on a collision course with Connors' alter ego, The Lizard, Peter will make life-altering choices to use his powers and shape his destiny to become a hero.",
+        "rating": 6.72,
+        "release_date": "2012-06-23",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Science Fiction"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/jexoNYnPd6vVrmygwF6QZmWPFdu.jpg"
     },
     {
         "title": "Se7en",
         "overview": "Two homicide detectives are on a desperate hunt for a serial killer whose crimes are based on the \"seven deadly sins\" in this dark and haunting film that takes viewers from the tortured remains of one victim to the next. The seasoned Det. Somerset researches each sin in an effort to get inside the killer's mind, while his novice partner, Mills, scoffs at his efforts to unravel the case.",
-        "rating": 8.4,
+        "rating": 8.376,
         "release_date": "1995-09-22",
         "genre": [
             "Crime",
             "Mystery",
             "Thriller"
-        ]
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg"
     },
     {
-        "title": "Harry Potter and the Deathly Hallows: Part 2",
-        "overview": "Harry, Ron and Hermione continue their quest to vanquish the evil Voldemort once and for all. Just as things begin to look hopeless for the young wizards, Harry discovers a trio of magical objects that endow him with powers to rival Voldemort's formidable skills.",
-        "rating": 8.1,
-        "release_date": "2011-07-12",
+        "title": "Below Her Mouth",
+        "overview": "An unexpected affair quickly escalates into a heart-stopping reality for two women whose passionate connection changes their lives forever.",
+        "rating": 6.803,
+        "release_date": "2017-02-10",
         "genre": [
-            "Fantasy",
-            "Adventure"
-        ]
-    },
-    {
-        "title": "The Matrix",
-        "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
-        "rating": 8.23,
-        "release_date": "1999-03-31",
-        "genre": [
-            "Action",
-            "Science Fiction"
-        ]
-    },
-    {
-        "title": "The Incredibles",
-        "overview": "Bob Parr has given up his superhero days to log in time as an insurance adjuster and raise his three children with his formerly heroic wife in suburbia. But when he receives a mysterious assignment, it's time to get back into costume.",
-        "rating": 7.714,
-        "release_date": "2004-10-27",
-        "genre": [
-            "Action",
-            "Adventure",
-            "Animation",
-            "Family"
-        ]
-    },
-    {
-        "title": "Jurassic World: Fallen Kingdom",
-        "overview": "Three years after Jurassic World was destroyed, Isla Nublar now sits abandoned. When the island's dormant volcano begins roaring to life, Owen and Claire mount a campaign to rescue the remaining dinosaurs from this extinction-level event.",
-        "rating": 6.54,
-        "release_date": "2018-06-06",
-        "genre": [
-            "Action",
-            "Adventure",
-            "Science Fiction",
-            "Thriller"
-        ]
-    },
-    {
-        "title": "The Conjuring: The Devil Made Me Do It",
-        "overview": "Paranormal investigators Ed and Lorraine Warren encounter what would become one of the most sensational cases from their files. The fight for the soul of a young boy takes them beyond anything they'd ever seen before, to mark the first time in U.S. history that a murder suspect would claim demonic possession as a defense.",
-        "rating": 7.402,
-        "release_date": "2021-05-25",
-        "genre": [
-            "Horror",
-            "Mystery",
-            "Thriller"
-        ]
-    },
-    {
-        "title": "Barbie",
-        "overview": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
-        "rating": 6.966,
-        "release_date": "2023-06-18",
-        "genre": [
-            "Comedy",
-            "Adventure"
-        ]
+            "Drama",
+            "Romance"
+        ],
+        "poster_url": "https://image.tmdb.org/t/p/w500/tPhBftWySbanfEialbsUzOuccgN.jpg"
     }
 ]
