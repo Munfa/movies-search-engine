@@ -2,7 +2,7 @@ from sentence_transformers import SentenceTransformer
 import faiss
 import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'
 
 # Preparing text for embedding
 def movie_text(row):
@@ -13,11 +13,12 @@ def movie_text(row):
 def retriever(df):
     docs = df.apply(movie_text, axis=1).tolist()
 
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
     # generate embeddings for the sentences
     embeddings = model.encode(docs, convert_to_numpy=True)
     
     d = embeddings.shape[1]
     index = faiss.IndexFlatL2(d)
     index.add(embeddings)
-    print(f"Total movies indexed: {index.ntotal}")
+
+    return model, index
