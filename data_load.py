@@ -3,17 +3,20 @@ import json
 from time import sleep
 import pandas as pd
 
-API_key = "Your API Key"
+API_key = "TMDB API key"
 base_url = "https://api.themoviedb.org/3"
 total_pages = 5
+start_year = 2000
+end_year = 2025
 
-def load_movies(page):
+def load_movies(page, year):
     url = f"{base_url}/discover/movie"
     params = {
         "api_key": API_key,
         "vote_count.gte": 100,
         "vote_average.gte": 6.5,
         "with_original_language": "en",
+        "primary_release_year": year,
         "page": page
     }
 
@@ -29,20 +32,22 @@ def get_genre_map():
 def get_movies():
     genre_map = get_genre_map()
     all_movies = []
-    for page in (1, total_pages+1):
-        movies = load_movies(page)
-        for m in movies:
-            movie_data = {
-                "title": m.get("title"),
-                "overview": m.get("overview"),
-                "rating": m.get("vote_average"),
-                "release_date": m.get("release_date"),
-                "genre": [genre_map[g] for g in m.get("genre_ids", [])],
-                "poster_url": f"https://image.tmdb.org/t/p/w500{m.get('poster_path')}" if m.get("poster_path") else None
-            }
-            all_movies.append(movie_data)
+    for year in range(start_year, end_year+1):
+        for page in range(1, total_pages+1):
+            movies = load_movies(page, year)
+            if not movies:
+                break
+            for m in movies:
+                movie_data = {
+                    "title": m.get("title"),
+                    "overview": m.get("overview"),
+                    "rating": m.get("vote_average"),
+                    "release_date": m.get("release_date"),
+                    "genre": [genre_map[g] for g in m.get("genre_ids", [])],
+                    "poster_url": f"https://image.tmdb.org/t/p/w500{m.get('poster_path')}" if m.get("poster_path") else None
+                }
+                all_movies.append(movie_data)
         
-        sleep(0.25)
-
+        sleep(0.50)
     with open("movies.json", 'w', encoding='utf-8') as file:
         json.dump(all_movies, file, indent=4)
