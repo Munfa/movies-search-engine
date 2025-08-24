@@ -1,14 +1,15 @@
 ---
-title: Streamlit Template Space
+title: Movie Search Engine
 emoji: 🚀
 colorFrom: red
 colorTo: red
 sdk: docker
 app_port: 8501
 tags:
-  - streamlit
+- streamlit
 pinned: false
-short_description: Streamlit template space
+short_description: A semantic search engine to search movies
+license: mit
 ---
 
 # Welcome to Streamlit!
