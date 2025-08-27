@@ -1,3 +1,4 @@
+--upgrade pip
 pandas
 requests
 json
@@ -7,5 +8,5 @@ streamlit
 sentence_transformers
 faiss
 transformers
---upgrade pip
+
 
