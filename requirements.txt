@@ -1,12 +1,10 @@
 pandas
 requests
-json
-time
 tensorflow-cpu==2.12.0
 torch
 streamlit
 sentence_transformers
-faiss
+faiss-cpu
 transformers
 
 

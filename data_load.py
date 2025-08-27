@@ -1,8 +1,11 @@
 import requests
 import json
 from time import sleep
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-API_key = "TMDB_API"
+API_key = os.getenv("TMDB_API")
 base_url = "https://api.themoviedb.org/3"
 total_pages = 5
 start_year = 2000

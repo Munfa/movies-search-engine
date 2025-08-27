@@ -1,4 +1,8 @@
 from transformers import pipeline
+import os
+from dotenv import load_dotenv
+load_dotenv()
+hf_token = os.getenv("HF_TOKEN")
 
 def search_movies(df, model, index, query, k=5):
     query_vec = model.encode([query], convert_to_numpy=True)
@@ -18,7 +22,7 @@ def search_movies(df, model, index, query, k=5):
 def get_response(results, query):
     generator = pipeline("text2text-generation",
                          model="google/flan-t5-base",
-                        token="HF_TOKEN"
+                        token=hf_token
                     )
     
     context = "\n".join([f"{r['title']} {r['genre']} ({r['rating']}) {r['overview']}" for r in results])
