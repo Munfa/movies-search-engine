@@ -2,15 +2,17 @@ import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
+import tensorflow as tf
+tf.get_logger().setLevel('ERROR')
+
 import pandas as pd
 from data_load import get_movies
 from build_retriever import retriever
 from generate_response import search_movies, get_response
 import streamlit as st
 import json
-from transformers import pipeline
 
-# get_movies()
+# get_movies()      #load movies from the API
 
 with open("movies.json", "r", encoding="utf-8") as f:
     movies = json.load(f)

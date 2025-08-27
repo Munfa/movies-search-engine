@@ -14,6 +14,7 @@ def retriever(df):
     # generate embeddings for the sentences
     embeddings = model.encode(docs, convert_to_numpy=True)
     
+    # using FAISS for storing and search
     d = embeddings.shape[1]
     index = faiss.IndexFlatL2(d)
     index.add(embeddings)
