@@ -1,8 +1,5 @@
 from sentence_transformers import SentenceTransformer
 import faiss
-import os
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'
 
 # Preparing text for embedding
 def movie_text(row):
