@@ -1,0 +1,10 @@
+pandas
+requests
+json
+time
+tensorflow
+streamlit
+sentence_transformers
+faiss
+transformers
+
