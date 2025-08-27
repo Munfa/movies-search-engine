@@ -3,7 +3,7 @@ import json
 from time import sleep
 import pandas as pd
 
-API_key = "TMDB API key"
+API_key = "ccead578a53c6ee55c8d38bbbca08278"
 base_url = "https://api.themoviedb.org/3"
 total_pages = 5
 start_year = 2000

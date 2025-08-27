@@ -1,10 +1,4 @@
-from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
-from huggingface_hub import InferenceApi
-import tensorflow as tf
-tf.get_logger().setLevel('ERROR')
-import os
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '0'
+from transformers import pipeline
 
 def search_movies(df, model, index, query, k=5):
     # query = "funny family movie with cooking"
@@ -25,7 +19,7 @@ def search_movies(df, model, index, query, k=5):
 def get_response(results, query):
     generator = pipeline("text2text-generation",
                          model="google/flan-t5-base",
-                        token="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"
+                        token="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"
                     )
     
     context = "\n".join([f"{r['title']} {r['genre']} ({r['rating']}) {r['overview']}" for r in results])
@@ -35,7 +29,6 @@ def get_response(results, query):
     Suggest the best and most relevant matches in a nice and friendly way. Highlight top 2 choices.
     """
 
-    # response = text_gen(prompt)[0]["generated_text"]
     response = generator(prompt)
     return response[0]['generated_text']
     
