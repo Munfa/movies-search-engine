@@ -1,8 +1,8 @@
+streamlit==1.33.0
 pandas
 requests
 tensorflow-cpu==2.12.0
 torch
-streamlit
 sentence_transformers
 faiss-cpu
 transformers
