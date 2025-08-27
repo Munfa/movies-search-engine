@@ -18,7 +18,7 @@ def search_movies(df, model, index, query, k=5):
 def get_response(results, query):
     generator = pipeline("text2text-generation",
                          model="google/flan-t5-base",
-                        token="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"
+                        token="HF_TOKEN"
                     )
     
     context = "\n".join([f"{r['title']} {r['genre']} ({r['rating']}) {r['overview']}" for r in results])

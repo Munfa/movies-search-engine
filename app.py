@@ -11,9 +11,8 @@ from build_retriever import retriever
 from generate_response import search_movies, get_response
 import streamlit as st
 import json
-from transformers import pipeline
 
-# get_movies()
+# get_movies()      #load movies from the API
 
 with open("movies.json", "r", encoding="utf-8") as f:
     movies = json.load(f)
