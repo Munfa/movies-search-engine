@@ -1,7 +1,6 @@
 from transformers import pipeline
 
 def search_movies(df, model, index, query, k=5):
-    # query = "funny family movie with cooking"
     query_vec = model.encode([query], convert_to_numpy=True)
     _, indices = index.search(query_vec, k)
     results = []
