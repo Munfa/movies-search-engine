@@ -4,6 +4,9 @@ An interactive movie search engine that helps users discover movies from 2000 to
 ## Live Demo
 Try the app here: [Streamlit App Link](https://movies-search-engine-nhm6kbag7wtb8ljrdboe7p.streamlit.app/)
 
+## Video Demo
+[Gif demo](search-movies.gif)
+
 ## Features
 * Search for movies by title, genre, or keyword
 * Retrieves the most relevant results from a dataset of around 3000 movies
