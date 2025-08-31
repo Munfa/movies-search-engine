@@ -1,1 +1,6 @@
 python-dotenv
+sentence_transformers
+faiss-cpu
+transformers
+huggingface_hub
+
