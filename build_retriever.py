@@ -1,27 +1,41 @@
 from sentence_transformers import SentenceTransformer
 import faiss
+import pickle
 from huggingface_hub import login
+import numpy as np
+import json
 import os
 from dotenv import load_dotenv
 load_dotenv()
 
-# Preparing text for embedding
-def movie_text(row):
-    genres = ",".join(row["genre"])
-    text = f"Title:{row['title']} | Genres:{genres} | Overview:{row['overview']} | Rating:{row['rating']}"
-    return text
+model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
-def retriever(df):
-    docs = df.apply(movie_text, axis=1).tolist()
+def create_faiss(movies):
+    texts_to_embed = []
+    metadata = []
 
-    login(token=os.getenv("HF_TOKEN"))
-    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2", device="cpu")
-    # generate embeddings for the sentences
-    embeddings = model.encode(docs, convert_to_numpy=True)
-    
-    # using FAISS for storing and search
-    d = embeddings.shape[1]
-    index = faiss.IndexFlatL2(d)
-    index.add(embeddings)
+    for movie in movies:
+        genres = ", ".join(movie["genre"])
+        text = f"Title: {movie['title']} | Genres: {genres} | Release Date: {movie['release_date']} | Overview: {movie['overview']} | Rating: {movie['rating']}"
+        texts_to_embed.append(text)
 
-    return model, index
+    embedding_dim = 384
+    index = faiss.IndexFlatL2(embedding_dim)
+    batch_size = 200
+    for i in range(0, len(texts_to_embed), batch_size):
+        batch = texts_to_embed[i : i+batch_size]
+        batch_embeddings = model.encode(batch, show_progress_bar=True)
+        index.add(np.array(batch_embeddings, dtype=np.float32))
+
+        metadata.extend(movies[i:i+batch_size])
+
+    faiss.write_index(index, "movie_index.faiss")
+    with open("movie_metadata.pkl", "wb") as f:
+        pickle.dump(metadata, f)
+    print("successful!!!")
+
+def load_models():
+    index = faiss.read_index("movie_index.faiss")
+    with open("movie_metadata.pkl", "rb") as f:
+        metadata = pickle.load(f)
+    return model, index, metadata
